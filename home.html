@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KileSite</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My stylesheet -->
+    <link href="style1.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- MDB -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand"> <img src="src/assets/logo_edited.png" alt="Logo"/> </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar"
+                aria-controls="collapsibleNavbar"
+                aria-expanded="false"
+                aria-label="Toggle Navigation"
+
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse justify-content-end"
+                id="collapsibleNavbar"
+        >
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" id="navbar_home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="src/about/aboutme.html" id="navbar_aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="src/portfolio/projects.html" id="navbar_projects">Projects Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Header Start -->
+<header class="page-header gradient" id="page_header">
+    <div class="container pt-3">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-5">
+                <div class="card" id="my_card_home">
+                    <img class="card-img-top" src="src/assets/Selfie.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Kile Zimmermann</h4>
+                        <p class="card-text">
+                            Computer Engineer
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <p class="text-center" id="home_info">
+                    <b>
+                        Howdy! I am Kile and this is my personal website.
+                        On here you will find a lot of useful and interesting information about me such as who I am, what I do, and my technical skills.
+                    </b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+        <path fill="#fff"
+              fill-opacity="1"
+              d="M0,96L48,106.7C96,117,192,139,288,128C384,117,480,75,576,53.3C672,32,768,32,864,53.3C960,75,1056,117,1152,128C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+</header>
+<!-- Header End -->
+
+<!-- Contacts Start -->
+<section class="socials" id="contacts">
+    <div class="container text-center">
+        <div class="row g-5 justify-content-center">
+            <div class="col-md-2">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kbz2001">
+                    <img src="src/assets/GitHub-Emblem.png" alt="GitHub" class="img-fluid animate__animated animate__backInLeft">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kile-zimmermann-a248231a3/">
+                    <img src="src/assets/LinkedIn-Emblem.png" alt="LinkedIn" class="img-fluid animate__animated animate__backInRight">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contacts End -->
+
+<!-- My JS -->
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

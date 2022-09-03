@@ -1,0 +1,194 @@
+/*New Slogan: Imagine, Code, Create*/
+html,
+body {
+    height: 85%;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 1rem;
+}
+
+.text {
+    color: white;
+    opacity: 85%;
+    z-index: 1;
+}
+
+.text_border {
+    border: 5px solid white;
+    border-radius: 25px;
+    padding-top: 0.5%;
+    background: hotpink;
+    opacity: 100%;
+}
+
+#navbar_home:hover,
+#navbar_aboutme:hover,
+#navbar_projects:hover{
+    background-color: #20c997;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.gradient {
+    background: linear-gradient(
+    135deg,
+    rgba(0,97,242,1) 0%,
+    rgba(105,0,199,1) 100%
+    );
+}
+
+.page-header {
+    margin-top: 6rem;
+    font-size: 1.25rem;
+    color: black;
+}
+
+/* HOME PAGE */
+#my_card_home {
+    border: 2px groove black;
+    width: 60%;
+}
+
+#home_info {
+    font-size: 2rem;
+    color: white;
+    opacity: 85%;
+}
+
+/* ABOUT ME PAGE */
+#my_card_aboutme1 {
+    border: 2px groove black;
+    width: 25%;
+}
+
+#alamo_img {
+    width: 50%;
+}
+
+#A\&M_img {
+    width: 50%;
+}
+
+#programming_img {
+    width: 50%;
+}
+
+.technicals_header {
+    font-size: 4rem;
+    z-index: 1;
+    position: relative;
+}
+
+.technicals {
+    color: white;
+}
+
+#technical_info {
+    margin-top: -12rem;
+    z-index: 1;
+    position: relative;
+}
+
+#resume {
+    width: 1000px;
+    height: 300px;
+    margin-top: -8rem;
+}
+
+.outer_list {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    background-image: url("src/assets/lightning-fill.svg");
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.inner_list {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    background-image: url("src/assets/lightning.svg");
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.language_info {
+    color: white;
+    border-color: snow;
+}
+
+#quantum_img {
+    width: 50%;
+}
+
+#robotics_img {
+    width: 50%;
+}
+
+#interests_info {
+    font-size: 1.5rem;
+}
+
+#AI_img {
+    width: 50%;
+}
+
+/* PROJECTS PAGE */
+.project1_header {
+    font-size: 4rem;
+    z-index: 1;
+    position: relative;
+    margin-top: -10%;
+}
+
+.projects_header {
+    font-size: 4rem;
+    z-index: 1;
+    position: relative;
+}
+
+#projects_img {
+    width: 50%;
+}
+
+#projects_header_info {
+    font-size: 2rem;
+}
+
+.projects_info {
+    font-size: 1.25rem;
+    margin-top: -10%;
+}
+
+.left_img_support {
+    margin-left: 5%;
+    margin-top: -20%;
+}
+
+.right_img_support {
+    margin-right: 5%;
+    margin-top: -20%;
+}
+
+/*#disabled_link {*/
+/*    background-color: #20c997;*/
+/*}*/
+
+/*#top_bar {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+
+/*#top_bar_line {*/
+/*    width: 90%;*/
+/*    background: linear-gradient(60deg, red, blue);*/
+/*}*/
+
+/*#col1 {*/
+/*    width: 35%;*/
+/*}*/
+
+/*#col2 {*/
+/*    width: 45%;*/
+/*}*/
